@@ -59,7 +59,7 @@ const townSlice = createSlice({
         state.towns.length &&
         state.towns.find((town) => town.id === payload.data.id) &&
         payload.type === FetchType.ADD;
-
+        
       if (isTownExist) {
         state.error = `${payload.data.name} is aleady on this list`;
       } else {
