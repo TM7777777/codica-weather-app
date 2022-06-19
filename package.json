@@ -1,6 +1,7 @@
 {
   "name": "codica",
   "version": "0.1.0",
+  "homepage": "https://tm7777777.github.io/codica-weather-app/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
