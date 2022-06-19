@@ -1,6 +1,6 @@
 import { fireEvent } from "@testing-library/react";
 import Home from "../components/Home/Home";
-import { initialTestState } from "../consts/home.const";
+import { HOME_ROUTE, initialTestState } from "../consts/home.const";
 import { renderWithStore } from "../utils/renderWithStore";
 
 describe("Home page tests", () => {
@@ -11,8 +11,8 @@ describe("Home page tests", () => {
         townsReducer: initialTestState,
         hoursTownReducer: { lastHoursTown: [] },
       },
-      "/",
-      "/"
+      HOME_ROUTE,
+      HOME_ROUTE
     );
 
     expect(getByText("Name: Kyiv, UA")).toBeTruthy();
@@ -25,8 +25,8 @@ describe("Home page tests", () => {
         townsReducer: initialTestState,
         hoursTownReducer: { lastHoursTown: [] },
       },
-      "/",
-      "/"
+      HOME_ROUTE,
+      HOME_ROUTE
     );
 
     const button = getByTestId("CloseIcon");

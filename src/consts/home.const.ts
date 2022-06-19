@@ -1,6 +1,6 @@
 import { ITownsState } from "../redux/slices/townsSlice";
 
-export const HOME_ROUTE = "/";
+export const HOME_ROUTE = "/codica-weather-app";
 
 export const initialTestState: ITownsState = {
   error: "",

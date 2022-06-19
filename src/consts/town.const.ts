@@ -1,6 +1,6 @@
 import { IHoursTownState } from "../redux/slices/hoursTownSlice";
 
-export const TOWN_ROUTE = "/town/:id/:name";
+export const TOWN_ROUTE = "/codica-weather-app/town/:id/:name";
 export const TOWNS_LOCAL_STORAGE_KEY = "towns";
 
 export const initialHoursTestState: IHoursTownState = {
