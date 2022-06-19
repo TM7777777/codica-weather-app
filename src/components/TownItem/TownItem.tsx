@@ -32,7 +32,7 @@ export const TownItem = ({ name, id, lastTimeUpdated, main, weather, sys }: Town
       event.target !== updateRef.current;
 
     if (isClickOutside) {
-      navigate(`/town/${id}/${name}`);
+      navigate(`/codica-weather-app/town/${id}/${name}`);
     }
   };
 
