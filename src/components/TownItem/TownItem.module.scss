@@ -1,0 +1,39 @@
+.wrapper {
+  width: auto;
+  height: 295px;
+  border: 1px solid #f3f3f3;
+  padding: 30px;
+  border-radius: 40px;
+  display: grid;
+  justify-self: center;
+  margin-bottom: 30px;
+  background-color: #f7f7f7;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0px 20px 15px rgba(0, 0, 0, 0.06);
+    transform: translateY(-2px);
+  }
+  .desc-container {
+    display: flex;
+    align-items: center;
+
+    > svg {
+      margin-right: 3px;
+    }
+  }
+
+  .name-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .close-icon {
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}

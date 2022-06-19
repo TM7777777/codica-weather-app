@@ -1,0 +1,15 @@
+.alert-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+  .alert-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .clear-icon {
+    cursor: pointer;
+  }
+}

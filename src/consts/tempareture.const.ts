@@ -1,0 +1,1 @@
+export const CALVIN_TEMPERATURE = 273.15;

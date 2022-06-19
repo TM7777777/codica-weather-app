@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  .add-button {
+    cursor: pointer;
+    border: 1.2px solid #1a76d2;
+    border-radius: 30px;
+    margin-left: 20px;
+    padding-right: 5px;
+
+    &:hover {
+      background-color: #1565c0;
+      color: white;
+    }
+  }
+}
