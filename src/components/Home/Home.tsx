@@ -27,11 +27,13 @@ const Home = () => {
       <Input />
       {error && <AlertNotification />}
       {!towns.length && <EmptyContent />}
-      <div className={styles["towns-container"]}>
-        {towns.map((town) => (
-          <TownItem key={town.id} {...town} />
-        ))}
-      </div>
+      {towns.length && (
+        <div className={styles["towns-container"]}>
+          {towns.map((town) => (
+            <TownItem key={town.id} {...town} />
+          ))}
+        </div>
+      )}
     </div>
   );
 };
